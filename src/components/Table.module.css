@@ -1,0 +1,37 @@
+.table {
+    border-collapse: collapse;
+    min-width: 90%;
+    margin: 2.4rem auto;
+}
+
+.table td,
+.table th {
+    padding: 1.8rem;
+}
+
+tr td:last-child {
+    padding: 0;
+}
+
+.table-header {
+    background-color: black;
+    color: #fff;
+}
+
+.table-body {
+    text-align: center;
+}
+
+.table-body tr {
+    background-color:  #f1f1f1;
+}
+
+.table-body tr:nth-child(odd) {
+    background-color: #dadada;
+}
+
+
+.table-body tr:hover {
+    background-color: #a8a8a8;
+}
+
